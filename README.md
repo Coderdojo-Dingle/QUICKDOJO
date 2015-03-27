@@ -11,4 +11,16 @@ I do plan on adding new versions to this app:
 * New styles
 * Quicker loading times
 * Ace.js (line numbers, syntax highlighting, error warnings and more)
-* This repository has personal codes censored for privacy reasons but to see working version please visit http://quickdojo.com
+* This repository has personal codes censored for privacy reasons but to see working version please visit http://quickdojo.com  
+
+Things I got help with:
+* The PHP
+* Domain stuff  
+
+Censorship changes:  
+if you want to download/use this on your own make sure to change the following to yours:  
+* ```javascript /*your domain number goes here*/``` to 1234 etc.  
+* ```php /*your domain number goes here*/``` to 5678 etc.  
+* ```html data-clientid="YOUR-CLIENT-ID.apps.googleusercontent.com"``` to ```html data-clientid="12345678910.apps.googleusercontent.com"```
+
+
