@@ -13,7 +13,7 @@ var n = window.location.href;
 if (n.indexOf("www.") > 0 ) {
 n= n.replace("www.","");
 window.location.href =n;
-document.reload;
+document.reload();
 }
 
 function cFolder () {
