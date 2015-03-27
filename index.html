@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+
+<!--
+<credit>Opensource simple code editor for Coderdojo by @dingledojo</credit>
+
+/*
+/* G+ VERSION
+/*
+
+/* Customise for your own site; thank you for retaining the credit notice above.
+/* 1 Create a directory called /pages to store the projects
+/* 2 Change the /pages folder permissions to "write" using your hosting cp
+/* 3 Locate the pathname for your site folder; In Godaddy it looks like D:\Hosting\nnnn\html\sitename
+/* 4 Replace the pathname in the first hidden input field below
+/* 5 In the quickdojo.js file, replace the URL name your /pages location
+/* 6 Note: xmlhttp reads the URL whereas the php code writes with the hosting path name
+/* 7 The quickdojo.php takes the filename & code as parms and writes the file. No customisation needed.
+/* 8 The filename is open in this version but use function guid() to generate a 6 character filename if need be.
+-->
+
+<title>Create code, quickly.</title>
+<meta property="og:image" content="http://quickdojo.com/dojologo.png" />
+<meta property="og:title" content="quickdojo.com" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel="icon" type="image/ico" media="screen" href="../qd.ico"/>
+<link rel="stylesheet" href="../quickdojo.css" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+<script src="../quickdojo.js"></script> 
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/redmond/jquery-ui.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+<script>
+$(document).ready(function() { 
+    $(document).tooltip();
+    $("#code").tooltip({ disabled: true });
+});
+</script>
+
+</head> 
+
+<body>
+<div id="top">
+<div id='showpages' title="My pages"></div> <!-- filled by dir.php -->
+<textarea name="code" id="code" rows="15" cols="70" placeholder="Type your code here" title="Click to EDIT the code" onclick="logo('Coding...');"></textarea>
+
+<table width="850" padding="0" cellpadding="0" border="0">
+<tr>
+<td width="150">
+<button class="button big" onclick="publish()" title="Click to Publish"/>PUBLISH</button>
+</td>
+<td width="400">
+<span id="filename" name="filename" class="hide">
+<input type="text" id="file" name="file" size="32" placeholder="Type your filename here" title="Click to EDIT the filename. Don't forget to add .html if it's HTML. no spaces between letters please.">
+</span>
+</td>
+<td width="150">
+<span class="hide" id="load" name="load">
+<button class="button big" onclick="load()" title="Click to open the filename on the left">OPEN</button>
+</SPAN>
+</td>
+<td width="150" align="right" style="margin-right:0;">
+<span class="hide" id="showDir" name="showDir">
+<button class="button big" onclick="showDir()" title="Show my web pages">PAGES</button>
+</SPAN>
+</td>
+</tr>
+<tr>
+<td colspan=2><div id="loginok" class="hide"></div>
+<div id="signinButton" class="show" title="Login with G+ to get your own private folder">
+<div class="g-signin"
+    data-callback="login"
+    data-clientid="149956849196-p1rgcet1o1g9d7ge2mo419av7p9pm128.apps.googleusercontent.com"
+    data-cookiepolicy="single_host_origin"
+    data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email"
+    data-height="short">
+</div>
+</div>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- G+ Login -->
+<script type="text/javascript">
+      (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/client:plusone.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+     })();
+     
+     cFolder();
+    </script>
+    
+    
+    
+<footer>
+<div class="footer"><div id="logo" class="show" title="I am robodojo.  I go away when you start coding.  But I pop up now and then..."><img src="qdlogo.png" border="0"></a></div>
+</div>
+</footer>
+
+
+</body>
+</html>
