@@ -7,7 +7,7 @@ var ftoken; //derived from the email address; used for folder name.
 var email; //returned by G+ API
 var rob;
 if (!window.console) console = {log: function() {}}; //IE
-var gpath = 'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\';
+var gpath = 'D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\';
 var n = window.location.href;
 
 if (n.indexOf("www.") > 0 ) {
@@ -21,7 +21,7 @@ var ws = getUrlVars()["r"];
 if (ws == "websummit"){
 ftoken = "websummit";
 email = "websummit";
-var path= 'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\' + ftoken;
+var path= 'D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\' + ftoken;
 showDivs();
 var el = document.getElementById('loginok'); 
 el.innerHTML = "<a href='#' onclick='logout()'><span class='button big' title=''>" + ftoken + "</span></a>";
@@ -60,13 +60,13 @@ if (!ftoken) {
     }
     else {alert('Login with Google for dedicated folders :D');}
 
-var path= 'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\';
+var path= 'D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\';
 var fpath='http://quickdojo.com/pages/' + file;
 }//endif 
 
 if (ftoken) {
 var file= document.getElementById('file').value;
-var path= 'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\' + ftoken + '\\';
+var path= 'D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\' + ftoken + '\\';
 var fpath='http://quickdojo.com/pages/' + ftoken + '/' + file;
 }
 
@@ -160,7 +160,7 @@ if (obj['email'])
 var n=email.indexOf("@");
 ftoken=email.slice(0,n); //!important
 
-var path= 'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\' + ftoken;
+var path='D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\' + ftoken;
 
 $.ajax({
 type: 'POST',    
@@ -206,7 +206,7 @@ function toggleElement(id) {
 
 function showDir() {
 path='http://quickdojo.com/pages/'+ftoken+'/';
-url='http://quickdojo.com/dir.php?dir='+'D:\\Hosting\\4994778\\html\\quickdojo\\pages\\'+ftoken+'&path='+path;
+url='http://quickdojo.com/dir.php?dir='+'D:\\Hosting\\'+ /*your domain number goes here*/+'\\html\\quickdojo\\pages\\'+ftoken+'&path='+path;
 $("#showpages").load(url).scrollTop(0).dialog({modal:true}); 
 }//endfn
 
