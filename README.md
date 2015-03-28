@@ -8,10 +8,11 @@
 
 Quickdojo was created to help Coderdojo's get coding quickly.  
 
-:: No finicky setups, just code & publish ::  
-:: Like Thimble only no distractions ::  
-:: Like Notepad but with publish to web ::  
-:: Login with G+ to get dedicated folders ::  
+* No finicky setups, just code & publish,     
+* Like Thimble only no distractions,  
+* Like Notepad but with publish to web,  
+* Login with Google+ to get your own folder.     
+
 
 I have built this editor for our Coderdojo in Dingle,    
 it is also my project for the Eircom Junior Spiders 2015  
