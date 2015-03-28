@@ -26,8 +26,8 @@ Things I got help with:
 * The PHP
 * Domain stuff  
 
-You will need to change the following credentials:    
-if you want to download/use this on your own, make sure to change the following values to yours:  
+You will need to change the following credentials if you want to download/use this on your own,  
+make sure to change the following values to yours:    
 * ```javascript /*your domain number goes here*/``` to 1234 etc.  
 * ```php /*your domain number goes here*/``` to 5678 etc.  
 * ```html data-clientid="YOUR-CLIENT-ID.apps.googleusercontent.com"``` to ```html data-clientid="12345678910.apps.googleusercontent.com"```
