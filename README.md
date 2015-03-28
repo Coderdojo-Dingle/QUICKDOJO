@@ -4,7 +4,10 @@
 > by Adam Byrne  
 > Shortlisted for the Eircom Junior Spiders 2015  
 > This app is available on the Chrome Webstore for free and currently has 371 users!  
-> Webstore Link: https://chrome.google.com/webstore/detail/quickdojo/iklkfiomgnionninlddmldpclbhncmoa
+> Webstore Link: https://chrome.google.com/webstore/detail/quickdojo/iklkfiomgnionninlddmldpclbhncmoa  
+
+> To see more of my finished projects go to: http://adambyrne.net  
+> Current projects I am working on: https://github.com/AdamByrne
 
 Quickdojo was created to help Coderdojo's get coding quickly.  
 
