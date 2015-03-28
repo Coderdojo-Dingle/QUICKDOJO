@@ -3,6 +3,15 @@
 > Quickdojo - Create code quickly  
 > by Adam Byrne  
 > Shortlisted for the Eircom Junior Spiders 2015  
+> This app is available on the Chrome Webstore for free and currently has 371 users!
+> Webstore Link: https://chrome.google.com/webstore/detail/quickdojo/iklkfiomgnionninlddmldpclbhncmoa
+
+Quickdojo was created to help Coderdojo's get coding quickly.  
+
+:: No finicky setups, just code & publish ::  
+:: Like Thimble only no distractions ::  
+:: Like Notepad but with publish to web ::  
+:: Login with G+ to get dedicated folders ::  
 
 I have built this editor for our Coderdojo in Dingle,    
 it is also my project for the Eircom Junior Spiders 2015  
