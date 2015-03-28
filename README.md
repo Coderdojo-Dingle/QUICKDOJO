@@ -3,7 +3,7 @@
 > Quickdojo - Create code quickly  
 > by Adam Byrne  
 > Shortlisted for the Eircom Junior Spiders 2015  
-> This app is available on the Chrome Webstore for free and currently has 371 users!
+> This app is available on the Chrome Webstore for free and currently has 371 users!  
 > Webstore Link: https://chrome.google.com/webstore/detail/quickdojo/iklkfiomgnionninlddmldpclbhncmoa
 
 Quickdojo was created to help Coderdojo's get coding quickly.  
@@ -20,13 +20,13 @@ I plan on adding the following features to this app:
 * New styles
 * Quicker loading times
 * Ace.js (line numbers, syntax highlighting, error warnings and more)
-* This repository has personal codes censored for privacy reasons but to see working version please visit http://quickdojo.com  
+* There is a working version at http://quickdojo.com  
 
 Things I got help with:
 * The PHP
 * Domain stuff  
 
-Censorship changes:  
+You will need to change the following credentials:    
 if you want to download/use this on your own, make sure to change the following values to yours:  
 * ```javascript /*your domain number goes here*/``` to 1234 etc.  
 * ```php /*your domain number goes here*/``` to 5678 etc.  
