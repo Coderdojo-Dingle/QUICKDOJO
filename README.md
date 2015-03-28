@@ -8,6 +8,7 @@
 
 > To see more of my finished projects go to: http://adambyrne.net  
 > Current projects I am working on: https://github.com/AdamByrne
+> My irish language project with TG4 : http://dingledojo.com/tv
 
 Quickdojo was created to help Coderdojo's get coding quickly.  
 
